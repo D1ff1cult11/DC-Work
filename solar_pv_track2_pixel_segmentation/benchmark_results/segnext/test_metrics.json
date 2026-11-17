@@ -1,0 +1,37 @@
+{
+    "pixel_accuracy": 91.29,
+    "miou": 70.45,
+    "mean_dice": 81.65,
+    "cohen_kappa": 0.7788,
+    "iou_per_class": {
+        "Background": 89.9,
+        "Hotspot": 51.22,
+        "Snail_Trail": 70.23
+    },
+    "dice_per_class": {
+        "Background": 94.68,
+        "Hotspot": 67.75,
+        "Snail_Trail": 82.51
+    },
+    "confusion_matrix": [
+        [
+            1020262,
+            2644,
+            98235
+        ],
+        [
+            64,
+            15518,
+            6116
+        ],
+        [
+            13721,
+            5952,
+            292592
+        ]
+    ],
+    "model_name": "segnext",
+    "parameters": 1194211,
+    "inference_fps": 198.9,
+    "epochs_trained": 15
+}

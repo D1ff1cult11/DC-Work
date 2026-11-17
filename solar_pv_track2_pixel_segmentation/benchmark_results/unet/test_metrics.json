@@ -1,0 +1,37 @@
+{
+    "pixel_accuracy": 91.25,
+    "miou": 72.36,
+    "mean_dice": 83.25,
+    "cohen_kappa": 0.7832,
+    "iou_per_class": {
+        "Background": 89.55,
+        "Hotspot": 56.43,
+        "Snail_Trail": 71.11
+    },
+    "dice_per_class": {
+        "Background": 94.49,
+        "Hotspot": 72.15,
+        "Snail_Trail": 83.11
+    },
+    "confusion_matrix": [
+        [
+            1007154,
+            4528,
+            109459
+        ],
+        [
+            0,
+            18555,
+            3143
+        ],
+        [
+            3499,
+            6654,
+            302112
+        ]
+    ],
+    "model_name": "unet",
+    "parameters": 7762531,
+    "inference_fps": 158.2,
+    "epochs_trained": 15
+}

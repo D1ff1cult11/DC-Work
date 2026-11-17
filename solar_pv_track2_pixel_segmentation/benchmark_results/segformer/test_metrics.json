@@ -1,0 +1,37 @@
+{
+    "pixel_accuracy": 90.64,
+    "miou": 67.06,
+    "mean_dice": 78.69,
+    "cohen_kappa": 0.7645,
+    "iou_per_class": {
+        "Background": 89.29,
+        "Hotspot": 43.02,
+        "Snail_Trail": 68.87
+    },
+    "dice_per_class": {
+        "Background": 94.34,
+        "Hotspot": 60.16,
+        "Snail_Trail": 81.56
+    },
+    "confusion_matrix": [
+        [
+            1011960,
+            3710,
+            105471
+        ],
+        [
+            63,
+            14008,
+            7627
+        ],
+        [
+            12180,
+            7156,
+            292929
+        ]
+    ],
+    "model_name": "segformer",
+    "parameters": 3107395,
+    "inference_fps": 26.4,
+    "epochs_trained": 15
+}
