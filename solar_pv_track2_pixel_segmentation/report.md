@@ -57,12 +57,10 @@ The visual comparison grid is available at [**`docs/figures/segmentation_predict
 
 ## 5. Artifact & Codebase Index
 
-* **Benchmark Runner:** [`run_segmentation_benchmark.py`](file:///e:/Dev%20Projects/DC%20Work/solar_pv_track2_pixel_segmentation/run_segmentation_benchmark.py)
-* **Visual Overlay Generator:** [`visualize_segmentation.py`](file:///e:/Dev%20Projects/DC%20Work/solar_pv_track2_pixel_segmentation/visualize_segmentation.py)
-* **Dataset Ingestion Script:** [`data/prepare_dataset.py`](file:///e:/Dev%20Projects/DC%20Work/solar_pv_track2_pixel_segmentation/data/prepare_dataset.py)
-* **Custom SegFormer Architecture:** [`src/models/segformer_seg.py`](file:///e:/Dev%20Projects/DC%20Work/solar_pv_track2_pixel_segmentation/src/models/segformer_seg.py)
-* **SegNeXt MSCA Architecture:** [`src/models/segnext_msca_seg.py`](file:///e:/Dev%20Projects/DC%20Work/solar_pv_track2_pixel_segmentation/src/models/segnext_msca_seg.py)
-* **Composite Loss Formulation:** [`src/losses.py`](file:///e:/Dev%20Projects/DC%20Work/solar_pv_track2_pixel_segmentation/src/losses.py)
-* **Track 2 Methodology Spec:** [`docs/01_Track2_Methodology_and_Architecture_Spec.md`](file:///e:/Dev%20Projects/DC%20Work/solar_pv_track2_pixel_segmentation/docs/01_Track2_Methodology_and_Architecture_Spec.md)
-* **Track 2 Dataset Dossier:** [`docs/02_Dataset_GroundTruth_and_Mask_Ingestion.md`](file:///e:/Dev%20Projects/DC%20Work/solar_pv_track2_pixel_segmentation/docs/02_Dataset_GroundTruth_and_Mask_Ingestion.md)
-* **Track 2 Professor Meeting Guide:** [`docs/03_Track2_Executive_Meeting_Guide.md`](file:///e:/Dev%20Projects/DC%20Work/solar_pv_track2_pixel_segmentation/docs/03_Track2_Executive_Meeting_Guide.md)
+* **Benchmark Runner:** [`run_segmentation_benchmark.py`](run_segmentation_benchmark.py)
+* **Visual Overlay Generator:** [`visualize_segmentation.py`](visualize_segmentation.py)
+* **Dataset Ingestion Script:** [`data/prepare_dataset.py`](data/prepare_dataset.py)
+* **Custom SegFormer Architecture:** [`src/models/segformer_seg.py`](src/models/segformer_seg.py)
+* **SegNeXt MSCA Architecture:** [`src/models/segnext_msca_seg.py`](src/models/segnext_msca_seg.py)
+* **Composite Loss Formulation:** [`src/losses.py`](src/losses.py)
+* **Visual Overlays Grid:** [`docs/figures/segmentation_predictions_overlay.png`](docs/figures/segmentation_predictions_overlay.png)
