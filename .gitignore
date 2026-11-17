@@ -1,0 +1,40 @@
+# Virtual Environments & Python Cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# User Instruction: Do NOT push doc analysis folders at root
+doc analysis/
+doc analysis 1/
+doc analysis 1 (PDFs)/
+
+# User Instruction: Do NOT push any markdown files in docs/ folders
+docs/*.md
+docs/**/*.md
+*/docs/*.md
+*/docs/**/*.md
+
+# Large Data Archives, Raw Images, and Caches (> 10MB)
+*.zip
+*.tar.gz
+*.pt
+*.pth
+*.npy
+*.bin
+
+# Track 1 & Track 2 Data Directories
+solar_pv_defect_detection/data/
+solar_pv_track2_pixel_segmentation/data/raw/
+solar_pv_track2_pixel_segmentation/data/processed/
+
+# Keep split files
+!solar_pv_track2_pixel_segmentation/data/splits/*.txt
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
